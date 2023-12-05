@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Boutique</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+    </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="C:/Users/Khy/Downloads/logoooo-removebg-preview-removebg-preview.png" style="object-fit:cover; width:auto; height:auto;"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="#about" id="aboutLink">ABOUT US</a></li>
+                    <li><a href="#contact" id="contactLink">CONTACT</a></li>
+                    <li><a href="#collection" id="collectionLink">COLLECTION</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>Adorn Yourself in Timeless Beauty</h1>
+        </div>
+    </section>
+
+    <section id="collection" class="collection">
+        <h1>COLLECTION</h1>
+<div class="row">
+			<div class="collection-col">
+				<img src= C:/Users/Khy/Downloads/11.png>
+				<div class = "layer">
+				<h1>  </h1>
+				</div>
+			</div>
+			<div class="collection-col">
+				<img src= C:/Users/Khy/Downloads/2.png>
+				<div class = "layer">
+				<h1>  </h1>
+				</div>
+			</div>
+			<div class="collection-col">
+				<img src= C:/Users/Khy/Downloads/3.png>
+				<div class = "layer">
+				<h1>  </h1>
+				</div>
+			</div>
+			<div class="collection-col">
+				<img src= C:/Users/Khy/Downloads/4.png>
+				<div class = "layer">
+				<h1>  </h1>
+				</div>
+			</div>
+		
+		</div>
+	
+	</section>    </section>
+
+    <section id="about" class="ABOUT">
+        <h1>Welcome to Ethereal Elegance</h1>
+        <p>At Ethereal Elegance, we believe that jewelry is more than just an accessory; it's a reflection of individuality, a celebration of moments, and an expression of style. Established with a passion for exquisite craftsmanship and timeless design, we are dedicated to creating jewelry that goes beyond adornment to become a cherished part of your story.</p>
+
+        <div class="row">
+            <div class="about-col">
+                <h2>Our Story</h2>
+                <p>Founded in 2023, Ethereal Elegance emerged from the desire to offer jewelry that seamlessly blends elegance with modern sensibilities. Our journey began with a commitment to quality and a vision to redefine the conventional jewelry experience. Every piece we create is a testament to our dedication to craftsmanship and a deep appreciation for the art of jewelry making.</p>
+            </div>
+
+            <div class="about-col">
+                <h2>Inspired Design</h2>
+                <p>Inspiration for our designs is drawn from a myriad of sources - from nature's beauty to contemporary trends. Each collection tells a unique story, allowing you to find the piece that resonates with your personal style and captures the essence of the moment you wish to commemorate.</p>
+            </div>
+
+            <div class="about-col">
+                <h2>Ethical Practices</h2>
+                <p>We are committed to ethical and sustainable practices in every aspect of our business. From responsibly sourced materials to fair labor practices, we strive to make a positive impact on the world while creating stunning pieces for you to enjoy.</p>
+            </div>
+
+            <div class="about-col">
+                <h2>Join the Community</h2>
+                <p>Our journey is incomplete without you. We invite you to become a part of the Ethereal Elegance community, where each piece is more than jewelry; it's a shared experience of beauty, craftsmanship, and individuality.</p>
+            </div>
+        </div>
+
+        <h3>Thank you for choosing Ethereal Elegance. We look forward to being a part of your special moments and helping you express your unique style.</h3>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h1>Connect With Us</h1>
+        
+        <div class="row">
+            <div class="contact-col">
+                <h3>Facebook</h3>
+                <p>@Ethereal_Elegance</p>
+            </div>
+
+            <div class="contact-col">
+                <h3>Call Us</h3>
+                <p>09978912341</p>
+            </div>
+
+            <div class="contact-col">
+                <h3>Instagram</h3>
+                <p>@Ethereal_Elegance</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ... (for javascript) ... -->
+
+    <script>
+		document.getElementById('aboutLink').addEventListener('click', function(event) {
+        event.preventDefault();
+        const aboutSection = document.getElementById('about');
+        aboutSection.scrollIntoView({ behavior: 'smooth' });
+		});
+
+		document.getElementById('contactLink').addEventListener('click', function(event) {
+        event.preventDefault();
+        const contactSection = document.getElementById('contact');
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+		});
+
+		document.getElementById('collectionLink').addEventListener('click', function(event) {
+        event.preventDefault();
+        const collectionSection = document.getElementById('collection');
+        collectionSection.scrollIntoView({ behavior: 'smooth' });
+		});
+	</script>
+</body>
+</html>
